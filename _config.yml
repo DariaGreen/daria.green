@@ -1,0 +1,10 @@
+# Site settings
+title: Блог Даши
+email: contact@daria.green
+description: > # this means to ignore newlines until "baseurl:"
+  Всестороннее развитие
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://daria.green" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
