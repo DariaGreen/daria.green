@@ -14,6 +14,7 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="{% post_url 2015-12-05-about %}">О блоге</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
