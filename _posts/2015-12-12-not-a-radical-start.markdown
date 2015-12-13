@@ -2,7 +2,7 @@
 layout: post
 title:  "Не радикальное начало"
 date:   2015-12-12 09:23:10
-categories: важное
+categories: posts
 comments: true
 ---
 
