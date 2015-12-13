@@ -2,7 +2,6 @@
 layout: post
 title:  "Имитация здравого смысла (она же житейская мудрость)"
 date:   2015-12-10 11:26:01
-categories: posts
 comments: true
 ---
 
