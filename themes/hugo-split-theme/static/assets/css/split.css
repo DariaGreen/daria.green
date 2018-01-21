@@ -112,7 +112,6 @@ body.page-template-page-fullsingle-split {
     color: #777777; }
 
 .fs-split {
-  width: 100vw;
   height: 100vh;
   display: flex; }
   @media (max-width: 800px) {
@@ -158,6 +157,9 @@ body.page-template-page-fullsingle-split {
   font-size: 4rem;
   line-height: 80px;
   letter-spacing: -2px; }
+  @media (max-width: 500px) {
+    .split-intro {
+      font-size: 3.5rem; } }
   .split-intro hr {
     color: #008800; }
   .split-intro h1 {
