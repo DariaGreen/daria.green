@@ -110,11 +110,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 	.split-content {
 		width: 50%;
-		min-height: 100vh;
+		//min-height: 100vh;
 		display: flex;
 		align-items: center;
-  		justify-content: center;
-  		overflow: auto;
+  	//justify-content: center;
+  	overflow: auto;
+
+    flex-direction: column;
+    //height: 100%;
 
 		@media (max-width: $bp-tablet ) {
 			width: 100%;
@@ -122,6 +125,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		}
 
 		.split-content-vertically-center {
+			flex: 1 0 auto;
+
 			padding: 80px;
 			max-width: 640px;
 			margin-top: auto;
@@ -220,7 +225,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.split-list {
 		width: 30%;
 		display: inline-block;
-		margin-bottom: 40px;
+		//margin-bottom: 40px;
 		vertical-align: top;
 
 		@media (max-width: $bp-mobile ) {
@@ -232,7 +237,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			text-transform: uppercase;
 			font-size: 11px;
 			line-height: 11px;
-			margin-bottom: 31px;
+			margin-bottom: 1rem;
 			color: $color-text;
 			letter-spacing: 2px;
 			opacity: 0.5;
@@ -270,18 +275,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 //-------------------------------------------------------------------------------
 
 .split-credit {
+	flex: 0 0 auto;
 	opacity: 0.7;
-
 	p {
 		font-size: 12px;
-		line-height: 14px;
-
+		//line-height: 14px;
 		a {
 			color: $color-text;
 		}
-
 	}
-
 }
 
 //-------------------------------------------------------------------------------

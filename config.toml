@@ -51,7 +51,7 @@ googleAnalytics = ""
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Email:"
+      heading = "Contact:"
 
       [[params.links.list1.link]]
         text = "coach@daria.green"
