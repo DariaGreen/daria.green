@@ -37,7 +37,7 @@ googleAnalytics = ""
       enable = true
       file = "images/Daria_Green.jpg"
       file_small = "images/Daria_Green_small.jpg"
-      position = "center center"
+      position = "33% 39%"
 
     # Video
     [params.visual.video]
