@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url("https://fonts.googleapis.com/css?family=Handlee|Italianno|Lovers+Quarrel|Miss+Fajardose|Niconne|Pacifico|Qwigley|Reenie+Beanie|Tangerine:400,700|Yesteryear");
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+html {
+  background-color: #ffffff; }
+
+body {
+  margin: 0 0;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 33px;
+  letter-spacing: -0.2px;
+  color: #666666;
+  animation: fadein 1s; }
+  body p {
+    color: #666666; }
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex; }
+  @media (max-width: 800px) {
+    .home {
+      height: auto;
+      flex-wrap: wrap; } }
+  .home .home-photo {
+    width: 50%;
+    height: 100vh;
+    background-image: url("../images/Daria_Green.jpg");
+    background-position: center center;
+    background-size: cover; }
+    @media (max-width: 800px) {
+      .home .home-photo {
+        height: 80vh;
+        width: 100%; } }
+  .home .split-content {
+    background: #ffffff;
+    background: -moz-linear-gradient(-45deg, #ffffff 0%, #e5e5e5 100%);
+    background: -webkit-linear-gradient(-45deg, #ffffff 0%, #e5e5e5 100%);
+    background: linear-gradient(135deg, #ffffff 0%, #e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto; }
+    @media (max-width: 800px) {
+      .home .split-content {
+        width: 100%;
+        height: auto; } }
+    .home .split-content .split-content-vertically-center {
+      padding: 80px;
+      max-width: 640px;
+      margin-top: auto;
+      margin-bottom: auto; }
+      @media (max-width: 1200px) {
+        .home .split-content .split-content-vertically-center {
+          padding: 60px; } }
+      @media (max-width: 800px) {
+        .home .split-content .split-content-vertically-center {
+          padding: 20px; } }
+
+.split-intro {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: -2px; }
+  .split-intro h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 40px;
+    letter-spacing: 0.4px;
+    color: #47bec7; }
+  .split-intro .tagline {
+    color: green; }
+
+.split-bio {
+  padding: 40px 0 40px 0;
+  font-family: 'Lora', serif; }
+  @media (max-width: 1200px) {
+    .split-bio {
+      padding: 30px 0; } }
+  @media (max-width: 800px) {
+    .split-bio {
+      padding: 20px 0; } }
+  .split-bio p {
+    color: #666666; }
+  .split-bio a {
+    color: #848d96;
+    transition-duration: 0.5s;
+    border-bottom: 1px dotted #848d96; }
+    .split-bio a:hover {
+      color: #CA486d;
+      transition-duration: 0.1s;
+      border-bottom: 1px dotted #CA486d; }
+
+.split-lists .split-list {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 40px;
+  vertical-align: top; }
+  @media (max-width: 500px) {
+    .split-lists .split-list {
+      width: 90%; } }
+  .split-lists .split-list h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 11px;
+    margin-bottom: 31px;
+    color: #666666;
+    letter-spacing: 2px;
+    opacity: 0.5; }
+  .split-lists .split-list ul li {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 12px; }
+    .split-lists .split-list ul li a {
+      color: #848d96;
+      transition-duration: 0.5s; }
+      .split-lists .split-list ul li a:hover {
+        color: #CA486d;
+        transition-duration: 0.1s; }
+
+footer {
+  text-align: center;
+  opacity: 0.5; }
+  footer p {
+    font-size: 0.8rem; }
