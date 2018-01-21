@@ -26,7 +26,7 @@ googleAnalytics = ""
   # Section - Content
   [params.content]
     name = "Daria Green"
-    tagline = "Functional Medicine Health Coach"
+    tagline = "Functional Medicine Health Coach"
     bio = "I am a Functional Medicine Health Coach and I am passionate about supporting you on your health journey."
 
   # Section - Visual
