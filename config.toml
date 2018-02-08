@@ -50,11 +50,12 @@ copyright = "© 2018 Daria Green"
   # Links List #1
   [[params.links]]
     [params.links.list1]
-      heading = "Contact:"
+      heading = "Forms:"
 
       [[params.links.list1.link]]
-        text = "coach@daria.green"
-        url = "mailto:coach@daria.green"
+        text = "For new clients"
+        # Link to a folder in the static directory with html redirect snippet.
+        url = "new/"
 
 #      [[params.links.list1.link]]
 #        text = "Email"
@@ -65,13 +66,13 @@ copyright = "© 2018 Daria Green"
 #        url = "#"
 
   # Links List #2
-#  [[params.links]]
-#    [params.links.list2]
-#      heading = "Social"
+  [[params.links]]
+    [params.links.list2]
+      heading = "Contact:"
 
-#      [[params.links.list2.link]]
-#        text = "Twitter"
-#        url = "#"
+      [[params.links.list2.link]]
+        text = "coach@daria.green"
+        url = "mailto:coach@daria.green"
 
 #      [[params.links.list2.link]]
 #        text = "Instagram"

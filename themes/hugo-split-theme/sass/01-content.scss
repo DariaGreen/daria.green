@@ -227,8 +227,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 	.split-list {
 		width: 30%;
-		display: inline-block;
-		//margin-bottom: 40px;
+		//display: inline-block;
+		margin-bottom: 1em;
 		vertical-align: top;
 
 		@media (max-width: $bp-mobile ) {

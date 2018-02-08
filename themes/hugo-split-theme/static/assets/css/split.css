@@ -194,7 +194,7 @@ body.page-template-page-fullsingle-split {
 
 .split-lists .split-list {
   width: 30%;
-  display: inline-block;
+  margin-bottom: 1em;
   vertical-align: top; }
   @media (max-width: 500px) {
     .split-lists .split-list {
