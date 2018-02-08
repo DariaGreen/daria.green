@@ -8,6 +8,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
+# Copyright
+copyright = "© 2018 Daria Green"
+
 [params]
 
   # Metadata for search engines and social sharing
@@ -18,9 +21,6 @@ googleAnalytics = ""
 
   # Favicon
   favicon = "favicon.ico"
-
-  # Copyright
-  copyright = "© 2018 Daria Green"
 
   # Section - Content
   [params.content]
