@@ -5,7 +5,7 @@ git:
   submodules_depth: 1
 install:
   - gem install sass
-  - wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.34/hugo_0.34_Linux-64bit.tar.gz
+  - wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.36/hugo_0.36_Linux-64bit.tar.gz
   - mkdir /tmp/hugo
   - tar -xzf /tmp/hugo.tar.gz -C /tmp/hugo
   - export PATH=/tmp/hugo:$PATH
