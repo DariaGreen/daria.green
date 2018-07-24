@@ -24,7 +24,9 @@
 {{ partial "meta.html" . }}
 
 <!-- Styles -->
-<link rel="stylesheet" href="{{partial "v" "assets/css/split.css"}}" type="text/css" media="screen" />
+{{ $sassOptions := (dict "targetPath" "assets/css/split.css") }}
+{{ $css := resources.Get "sass/split.scss" | resources.ToCSS $sassOptions }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css" media="screen" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
 <!-- Image Styles -->
