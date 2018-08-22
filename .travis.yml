@@ -8,7 +8,7 @@ before_install:
   - wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
   - sudo dpkg --force-all -i libstdc++6
 install:
-  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.46/hugo_extended_0.46_Linux_64bit.deb
+  - wget -q -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.47.1/hugo_extended_0.47.1_Linux-64bit.deb
   - sudo dpkg -i hugo.deb
 script:
   - hugo # From version 0.43 hugo automatically creates css files from sass/scss
