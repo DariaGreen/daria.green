@@ -83,13 +83,13 @@ copyright = "© 2018 Daria Green"
 #        url = "#"
 
   # Links List #3
-#  [[params.links]]
-#    [params.links.list3]
-#      heading = "Network"
+  [[params.links]]
+    [params.links.list3]
+      heading = "Other:"
 
-#      [[params.links.list3.link]]
-#        text = "Link One"
-#        url = "#"
+     [[params.links.list3.link]]
+       text = "FMCHC Certificate"
+       url = "/images/FMCHC_certificate.jpg"
 
 #      [[params.links.list3.link]]
 #        text = "Link Two"
