@@ -91,9 +91,9 @@ copyright = "© 2021 Daria Green"
        text = "FMCHC Certificate"
        url = "/images/FMCHC_certificate.jpg"
 
-#      [[params.links.list3.link]]
-#        text = "Link Two"
-#        url = "#"
+     [[params.links.list3.link]]
+       text = "LabGeeks Certificate"
+       url = "/images/LabGeeks_certificate.png"
 
 #      [[params.links.list3.link]]
 #        text = "Link Three"
