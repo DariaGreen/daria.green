@@ -1,0 +1,42 @@
+name: Deploy with Hugo to GH Pages
+
+on:
+  push:
+    branches:
+      - master
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "buildAndDeploy"
+  buildAndDeploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - name: Hugo to GH Pages
+        # You may pin to the exact commit or the version.
+        # uses: chabad360/hugo-gh-pages@0bcf754dc6c823a580c58a59a3baa476a41258d3
+        uses: chabad360/hugo-gh-pages@v2
+        with:
+          # A Github Personal Access Token with Repo permissions
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # The custom domain name for your GH Pages Site
+          cname: daria.green
+          # The branch to push the built site to
+          #branch: # optional, default is gh-pages
+          # The repo to push the built site to
+          #repo: # optional
+          # The version of hugo to use
+          #hugoVersion: # optional
+          # Arguments to pass to Hugo
+          #args: # optional, default is --gc --minify --cleanDestinationDir
+          # Directory for Hugo Site (if it's not the root of the repo)
+          #siteDir: # optional
