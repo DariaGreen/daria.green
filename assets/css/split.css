@@ -150,7 +150,6 @@ body.page-template-page-fullsingle-split {
       @media (max-width: 800px) {
         .fs-split .split-content .split-content-vertically-center {
           padding: 40px; } }
-
 .split-intro {
   font-family: Tangerine, cursive;
   font-weight: 600;
@@ -242,11 +241,10 @@ body.page-template-page-fullsingle-split {
   overflow: hidden;
   height: 56.25vw;
   width: 100vw; }
-  @media (max-aspect-ratio: 16 / 9) {
+  @media (max-aspect-ratio: 16/9) {
     .video-container {
       height: 100vh;
       width: 177.7777777778vh; } }
-
 .video-container iframe,
 .video-container object,
 .video-container embed {
