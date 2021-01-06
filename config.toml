@@ -85,14 +85,14 @@ copyright = "© 2021 Daria Green"
   # Links List #3
   [[params.links]]
     [params.links.list3]
-      heading = "Other:"
+      heading = "Certificates:"
 
      [[params.links.list3.link]]
        text = "FMCHC Certificate"
        url = "/images/FMCHC_certificate.jpg"
 
      [[params.links.list3.link]]
-       text = "LabGeeks Certificate"
+       text = "Laboratory Diagnostics Certificate"
        url = "/images/LabGeeks_certificate.png"
 
 #      [[params.links.list3.link]]
