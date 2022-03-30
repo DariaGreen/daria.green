@@ -53,7 +53,7 @@ copyright = "© 2022 Daria Green"
       heading = "Forms:"
 
       [[params.links.list1.link]]
-        text = "For new clients"
+        text = "Экспресс-консультация"
         # Link to a folder in the static directory with html redirect snippet.
         url = "new/"
 
