@@ -95,6 +95,6 @@ copyright = "© 2022 Daria Green"
        text = "Laboratory Diagnostics Certificate"
        url = "/images/LabGeeks_certificate.png"
 
-#      [[params.links.list3.link]]
-#        text = "Link Three"
-#        url = "#"
+     [[params.links.list3.link]]
+       text = "Stanford Certificate"
+       url = "/images/Stanford_certificate.png"
