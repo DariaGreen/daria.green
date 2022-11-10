@@ -193,7 +193,7 @@ body.page-template-page-fullsingle-split {
       border-bottom: 1px dotted #008800; }
 
 .split-lists .split-list {
-  width: 30%;
+  /*width: 30%;*/
   margin-bottom: 1em;
   vertical-align: top; }
   @media (max-width: 500px) {

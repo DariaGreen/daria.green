@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://daria.green/"
 languageCode = "en-US"
-title = "Daria Green: Functional Medicine Health Coach"
+title = "Daria Green: Functional Medicine Certified Health Coach"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
@@ -15,7 +15,7 @@ copyright = "© 2022 Daria Green"
 
   # Metadata for search engines and social sharing
   name = "Daria Green"
-  description = "I am a Functional Medicine Health Coach and I am passionate about supporting you on your health journey."
+  description = "I am a Functional Medicine Certified Health Coach and Food Addiction Councelor in training at INFACT school and I am passionate about supporting you on your health journey."
   shareImage = "images/Daria_Green.jpg"
   # twitterHandle = "onepagelove"
 
@@ -25,8 +25,8 @@ copyright = "© 2022 Daria Green"
   # Section - Content
   [params.content]
     name = "Daria Green"
-    tagline = "Functional Medicine Health Coach"
-    bio = "I am a Functional Medicine Health Coach and I am passionate about supporting you on your health journey."
+    tagline = "Functional Medicine Certified Health Coach"
+    bio = "I am a functional medicine certified health coach and food addiction counselor in training at the International School for Food Addiction Counseling and Treatment (INFACT). I am passionate about addictology and destigmatizing food addiction."
 
   # Section - Visual
   [params.visual]
@@ -52,10 +52,15 @@ copyright = "© 2022 Daria Green"
     [params.links.list1]
       heading = "Forms:"
 
-      [[params.links.list1.link]]
-        text = "Экспресс-консультация"
-        # Link to a folder in the static directory with html redirect snippet.
-        url = "new/"
+    [[params.links.list1.link]]
+      text = "Register for upcoming Bali retreat"
+      # Link to a folder in the static directory with html redirect snippet.
+      url = "https://nosugarbali.com/"
+
+      # [[params.links.list1.link]]
+      #   text = "Экспресс-консультация"
+      #   # Link to a folder in the static directory with html redirect snippet.
+      #   url = "new/"
 
 #      [[params.links.list1.link]]
 #        text = "Email"
@@ -92,9 +97,13 @@ copyright = "© 2022 Daria Green"
        url = "/images/FMCHC_certificate.jpg"
 
      [[params.links.list3.link]]
-       text = "Laboratory Diagnostics Certificate"
-       url = "/images/LabGeeks_certificate.png"
-
-     [[params.links.list3.link]]
        text = "Stanford Certificate"
        url = "/images/Stanford_certificate.png"
+
+     [[params.links.list3.link]]
+       text = "American Academy of Addiction Psychiatry Certificate"
+       url = "/pdf/Daria_Green_Addiction_Treatment_Clinical_Skills_for_Healthcare.pdf"
+
+     [[params.links.list3.link]]
+       text = "Laboratory Diagnostics Certificate"
+       url = "/images/LabGeeks_certificate.png"
