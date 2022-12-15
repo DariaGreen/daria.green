@@ -105,5 +105,9 @@ copyright = "© 2022 Daria Green"
        url = "/pdf/Daria_Green_Addiction_Treatment_Clinical_Skills_for_Healthcare.pdf"
 
      [[params.links.list3.link]]
+       text = "CPD Attendance Certificate"
+       url = "/pdf/CPDSO%20Attendance%20Certificate%202022%20-%20World%20Nutrition%20Summit%20Addiction%20Symposium.pdf"
+
+     [[params.links.list3.link]]
        text = "Laboratory Diagnostics Certificate"
        url = "/images/LabGeeks_certificate.png"
