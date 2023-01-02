@@ -9,7 +9,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 googleAnalytics = ""
 
 # Copyright
-copyright = "© 2022 Daria Green"
+copyright = "© 2023 Daria Green"
 
 [params]
 
@@ -48,14 +48,14 @@ copyright = "© 2022 Daria Green"
   # Links
   #
   # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Forms:"
+  #[[params.links]]
+  #  [params.links.list1]
+  #    heading = "Forms:"
 
-    [[params.links.list1.link]]
-      text = "Register for upcoming Bali retreat"
+  #  [[params.links.list1.link]]
+  #    text = "Register for upcoming Bali retreat"
       # Link to a folder in the static directory with html redirect snippet.
-      url = "https://nosugarbali.com/"
+  #    url = "https://nosugarbali.com/"
 
       # [[params.links.list1.link]]
       #   text = "Экспресс-консультация"
