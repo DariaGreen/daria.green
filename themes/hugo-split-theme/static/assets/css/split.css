@@ -105,7 +105,7 @@ body.page-template-page-fullsingle-split {
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 33px;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
   color: #777777;
   animation: fadein 2s; }
   body.page-template-page-fullsingle-split p {
@@ -140,33 +140,35 @@ body.page-template-page-fullsingle-split {
         height: auto; } }
     .fs-split .split-content .split-content-vertically-center {
       flex: 1 0 auto;
-      padding: 80px;
+      padding: 30px;
       max-width: 640px;
       margin-top: auto;
       margin-bottom: auto; }
       @media (max-width: 1200px) {
         .fs-split .split-content .split-content-vertically-center {
-          padding: 60px; } }
+          padding: 30px; } }
       @media (max-width: 800px) {
         .fs-split .split-content .split-content-vertically-center {
-          padding: 40px; } }
+          padding: 30px; } }
 
 .split-intro {
-  font-family: Tangerine, cursive;
-  font-weight: 600;
-  font-size: 4rem;
-  line-height: 80px;
-  letter-spacing: -2px; }
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  letter-spacing: -1px; }
   @media (max-width: 500px) {
     .split-intro {
-      font-size: 3.5rem; } }
+      font-size: 2rem; } }
   .split-intro hr {
     color: #008800; }
   .split-intro h1 {
-    font-weight: 400;
-    font-size: 3rem;
+    font-family: Tangerine, cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: 4rem;
     line-height: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
     letter-spacing: 0.4px;
     color: #008800; }
   .split-intro .tagline {
@@ -174,6 +176,7 @@ body.page-template-page-fullsingle-split {
 
 .split-bio {
   padding: 40px 0 40px 0;
+  line-height: 1.5rem;
   font-family: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif; }
   @media (max-width: 1200px) {
     .split-bio {

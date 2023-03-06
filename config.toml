@@ -1,7 +1,7 @@
 # Site settings
 baseURL = "http://daria.green/"
 languageCode = "en-US"
-title = "Daria Green: Functional Medicine Certified Health Coach"
+title = "Daria Green: Food Addiction Professional and Functional Medicine Certified Health Coach"
 theme = "hugo-split-theme"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
@@ -15,7 +15,7 @@ copyright = "© 2023 Daria Green"
 
   # Metadata for search engines and social sharing
   name = "Daria Green"
-  description = "I am a Functional Medicine Certified Health Coach and Food Addiction Councelor in training at INFACT school and I am passionate about supporting you on your health journey."
+  description = "I am passionate about supporting you on your health journey."
   shareImage = "images/Daria_Green.jpg"
   # twitterHandle = "onepagelove"
 
@@ -25,8 +25,11 @@ copyright = "© 2023 Daria Green"
   # Section - Content
   [params.content]
     name = "Daria Green"
-    tagline = "Functional Medicine Certified Health Coach"
-    bio = "I am a functional medicine certified health coach and food addiction counselor in training at the International School for Food Addiction Counseling and Treatment (INFACT). I am passionate about addictology and destigmatizing food addiction."
+    tagline1 = "Food Addiction Professional"
+    tagline2 = "and"
+    tagline3 = "Functional Medicine Certified Health Coach"
+    bio1 = "As a passionate Food Addiction professional and experienced FM health coach, I understand the emotional, physical, and mental toll food addiction can take on an individual. I have dedicated my life to helping others overcome their sugar cravings and lead a healthier and happier life."
+    bio2 = "I use a holistic FM approach that addresses not just the symptoms but the root causes of food addiction. I believe that each individual is unique and requires a personalized treatment plan that is tailored to their specific needs and goals. My approach is grounded in evidence-based practices, and I continuously stay up-to-date with the latest research in the field to ensure that my clients receive the best possible care."
 
   # Section - Visual
   [params.visual]
