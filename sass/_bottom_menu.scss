@@ -1,0 +1,21 @@
+#bottom-menu {
+  margin: 0;
+  ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    li {
+      margin: 5px;
+      a {
+        text-decoration: none;
+        color: $menuItemsColor;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

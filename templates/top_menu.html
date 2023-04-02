@@ -1,0 +1,20 @@
+<nav id="menu" role="navigation">
+  <a href="{{ config.base_url }}" class="logo"></a>
+
+  <label>
+    <input id="menu_input" type="checkbox">
+    <span class="menu">
+      <span class="hamburger"></span>
+    </span>
+    <ul id="top_menu_ul" class="no-print" role="navigation">
+      {% include 'menu_items.html' %}
+    </ul>
+  </label>
+</nav>
+<script>
+  var ul = document.getElementById('top_menu_ul');
+  ul.onclick = (e) => {
+    console.log('Click! ' + e)
+    document.getElementById('menu_input').checked = false;;    
+  };
+</script>

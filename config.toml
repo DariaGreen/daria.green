@@ -1,116 +1,17 @@
-# Site settings
-baseURL = "http://daria.green/"
-languageCode = "en-US"
-title = "Daria Green: Food Addiction Professional and Functional Medicine Certified Health Coach"
-theme = "hugo-split-theme"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+# The URL the site will be built for
+base_url = "https://daria.green"
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-# Copyright
-copyright = "© 2023 Daria Green"
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
 
-[params]
+[markdown]
+highlight_code = false
 
-  # Metadata for search engines and social sharing
-  name = "Daria Green"
-  description = "I am passionate about supporting you on your health journey."
-  shareImage = "images/Daria_Green.jpg"
-  # twitterHandle = "onepagelove"
-
-  # Favicon
-  favicon = "favicon.ico"
-
-  # Section - Content
-  [params.content]
-    name = "Daria Green"
-    tagline1 = "Food Addiction Professional"
-    tagline2 = "and"
-    tagline3 = "Functional Medicine Certified Health Coach"
-    bio1 = "As a passionate Food Addiction professional and experienced FM health coach, I understand the emotional, physical, and mental toll food addiction can take on an individual. I have dedicated my life to helping others overcome their sugar cravings and lead a healthier and happier life."
-    bio2 = "I use a holistic FM approach that addresses not just the symptoms but the root causes of food addiction. I believe that each individual is unique and requires a personalized treatment plan that is tailored to their specific needs and goals. My approach is grounded in evidence-based practices, and I continuously stay up-to-date with the latest research in the field to ensure that my clients receive the best possible care."
-
-  # Section - Visual
-  [params.visual]
-
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "images/Daria_Green.jpg"
-      file_small = "images/Daria_Green_small.jpg"
-      position = "33% 39%"
-
-    # Video
-    [params.visual.video]
-      enable = false
-      mute = true
-      file = "videos/background.mp4"
-      # youtubeId = "dk9uNWPP7EA"
-
-  # Links
-  #
-  # Links List #1
-  #[[params.links]]
-  #  [params.links.list1]
-  #    heading = "Forms:"
-
-  #  [[params.links.list1.link]]
-  #    text = "Register for upcoming Bali retreat"
-      # Link to a folder in the static directory with html redirect snippet.
-  #    url = "https://nosugarbali.com/"
-
-      # [[params.links.list1.link]]
-      #   text = "Экспресс-консультация"
-      #   # Link to a folder in the static directory with html redirect snippet.
-      #   url = "new/"
-
-#      [[params.links.list1.link]]
-#        text = "Email"
-#        url = "#"
-
-#      [[params.links.list1.link]]
-#        text = "Newsletter"
-#        url = "#"
-
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Contact:"
-
-      [[params.links.list2.link]]
-        text = "coach@daria.green"
-        url = "mailto:coach@daria.green"
-
-#      [[params.links.list2.link]]
-#        text = "Instagram"
-#        url = "#"
-
-#      [[params.links.list2.link]]
-#        text = "Dribbble"
-#        url = "#"
-
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Certificates:"
-
-     [[params.links.list3.link]]
-       text = "FMCHC Certificate"
-       url = "/images/FMCHC_certificate.jpg"
-
-     [[params.links.list3.link]]
-       text = "Stanford Certificate"
-       url = "/images/Stanford_certificate.png"
-
-     [[params.links.list3.link]]
-       text = "American Academy of Addiction Psychiatry Certificate"
-       url = "/pdf/Daria_Green_Addiction_Treatment_Clinical_Skills_for_Healthcare.pdf"
-
-     [[params.links.list3.link]]
-       text = "CPD Attendance Certificate"
-       url = "/pdf/CPDSO%20Attendance%20Certificate%202022%20-%20World%20Nutrition%20Summit%20Addiction%20Symposium.pdf"
-
-     [[params.links.list3.link]]
-       text = "Laboratory Diagnostics Certificate"
-       url = "/images/LabGeeks_certificate.png"
+[extra]
+author = "Daria Green"
+keywords = "Addiction counseling, Sugar addiction treatment, Comprehensive assessment, Motivational interviewing, Chronic diseases, Lifestyle medicine, Environmental medicine, Mindfulness, Wellness coaching"
+description = "Food and sugar addiction awareness and treatment. Helping those who struggle. Daria Green is a Food Addiction Professional and Functional Medicine Health Coach."
+preview_image = "images/Daria.webp"

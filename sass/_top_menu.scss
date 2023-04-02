@@ -1,0 +1,149 @@
+$logoWidth: 5rem;
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("images/logo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  // Do not fill padding and border area with background.
+  background-origin: content-box;
+
+  height: $logoWidth;
+  width: $logoWidth;
+}
+
+$widthToHideMenu: 768px;
+$hamburgerColor: rgba(128, 128, 128, 0.6);
+$mobileMenuBackgroundColor: #eee;
+$animationDuration: .25s;
+
+label {
+  .menu {
+    @media only screen and (min-width: $widthToHideMenu) {
+      display: none;
+    }
+    position: fixed;
+		right: -100px;
+		top: -100px;
+		z-index: 100;
+		width: 200px;
+		height: 200px;
+		border-radius: 50% 50% 50% 50%;
+		-webkit-transition: $animationDuration ease-in-out;
+		transition: $animationDuration ease-in-out;
+		box-shadow: 0 0 0 0 $mobileMenuBackgroundColor, 0 0 0 0 $mobileMenuBackgroundColor;
+		cursor: pointer;
+	}
+	.hamburger {
+    @media only screen and (min-width: $widthToHideMenu) {
+      display: none;
+    }
+
+    position: absolute;
+		top: 135px;
+		left: 50px;
+		width: 30px;
+		height: 2px;
+		background: $hamburgerColor;
+		display: block;
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		-webkit-transition: $animationDuration ease-in-out;
+		transition: $animationDuration ease-in-out;
+		&:after {
+			-webkit-transition: $animationDuration ease-in-out;
+			transition: .5s ease-in-out;
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: $hamburgerColor;
+			bottom: -10px;
+		}
+		&:before {
+			-webkit-transition: $animationDuration ease-in-out;
+			transition: $animationDuration ease-in-out;
+			content: "";
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: $hamburgerColor;
+			top: -10px;
+		}
+	}
+	input {
+		display: none;
+		&:checked {
+			+ {
+				.menu {
+					box-shadow: 0 0 0 100vw $mobileMenuBackgroundColor, 0 0 0 100vh $mobileMenuBackgroundColor;
+					border-radius: 0;
+          background-color: $mobileMenuBackgroundColor;
+					.hamburger {
+						-webkit-transform: rotate(45deg);
+						transform: rotate(45deg);
+						&:after {
+							-webkit-transform: rotate(90deg);
+							transform: rotate(90deg);
+							bottom: 0;
+						}
+						&:before {
+							-webkit-transform: rotate(90deg);
+							transform: rotate(90deg);
+							top: 0;
+						}
+					}
+					+ {
+						ul {
+              display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+	ul {
+    @media only screen and (min-width: $widthToHideMenu) {
+      display: flex;
+      position: absolute;
+      transform: none;
+      right: 0;
+      left: auto;
+      top: auto;
+      margin: 1rem 1rem 1rem $logoWidth;
+      -webkit-transform: none;
+      align-items: flex-end;
+      li {
+        margin-left: 1rem;
+        white-space: nowrap;
+      }
+    }
+    text-align: center;
+    left: 50%;
+    top: 30%;
+    font-size: 18px;
+    z-index: 200;
+		position: fixed;
+    list-style: none;
+    padding: 0;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+    display: none;
+		-webkit-transition: $animationDuration 0s ease-in-out;
+		transition: $animationDuration 0s ease-in-out;
+	}
+	a {
+		margin-bottom: 1em;
+		display: block;
+    color: $menuItemsColor;
+		text-decoration: none;
+	}
+  a:hover {
+    text-decoration: underline;
+  }
+}
