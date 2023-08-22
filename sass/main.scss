@@ -325,7 +325,10 @@ footer {
   .aaap {
     @include certificate($image: "certificates/aaap.webp");
   }
-  .world_nutrition_summit {
+  .addictiveeating {
+    @include certificate($image: "certificates/addictive_eating.webp");
+  }
+ .world_nutrition_summit {
     @include certificate($image: "certificates/world_nutrition_summit.webp");
   }
   .labgeeks {
